@@ -1,0 +1,18 @@
+We are going to do API for the second screen of the App. 
+First API : 
+We will be displaying movies based on the users preference (Use Content Filtering )
+
+Second API : 
+We also will be displaying a list of most popular movies (Use Demographic filtering method)
+
+=-=-==--=-=-=-=-=-=-=-=-=-=-=-==--==-=-=-=-=-=-=-=-=-=-=
+
+If we notice our data we don't have the movie's poster link. 
+We have a csv file (movie_links.csv) for that. 
+
+We will be merging (movie_links.csv) with (movie.csv) and then we will create a csv named as (fin0al.csv)
+with an extra column for poster_link 
+
+=-=-==--=-=-=-=-=-=-=-=-=-=-=-==--==-=-=-=-=-=-=-=-=-=-=
+
+The new file name is merge_csv.py (code to merge two files)
